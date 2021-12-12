@@ -31,6 +31,9 @@ const data = [
 // }
 
 function result(data) {
+  var x = data[1];
+  delete x.session_name;
+  data[1]=x;
   return JSON.stringify(data, null, "  ");
 }
 console.log(result(data));
