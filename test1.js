@@ -75,6 +75,14 @@ function result(sessions) {
       the_result.push(obj);
     }
   }
+  for(let j in the_result){
+    for(let i=0 ; i<sessions.length;i++){
+      
+    }
+  }
+  
+
+
   return the_result;
 }
 

@@ -29,15 +29,16 @@ const data = [
 //   }
 //   return JSON.stringify(data, null, "  ");
 // }
-function result(data){
-  
-}
 
-//console.log(result(data));
-for(let i=0 ; i<data.length;i++){
-  var x = data[i];
-  console.log(data[i]["session_name"]);
-  for(let j=0 ; j<x.length;j++){
-    console.log(data[i][j]);
-  }
+function result(data) {
+  return JSON.stringify(data, null, "  ");
 }
+console.log(result(data));
+
+// for(let i=0 ; i<data.length;i++){
+//   var x = data[i];
+//   console.log(data[i]["session_name"]);
+//   for(let j=0 ; j<x.length;j++){
+//     console.log(data[i][j]);
+//   }
+// }
